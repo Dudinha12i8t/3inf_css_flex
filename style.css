@@ -46,30 +46,31 @@ https://www.flexboxdefense.com
 
 */
 .container {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-    /* align-content: center; */
-    /* row-gap: 50px; */
-    /* column-gap: 30px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     justify-content: space-between; 
+     align-items: center;
+    align-content: center;
+     row-gap: 10px; 
+    column-gap: 30px;
 
     /* INDIFERENTE */
     background-color: lightgrey;
     padding: 50px;
     margin: 20px;
     height: auto;
+    
 }
 
 .bloco-1 {
     background-color: var(--corFundoUm);
     width: var(--tamanho);
     order: 0;
-    /* flex-grow: 0;
+    flex-grow: 0;
     flex-shrink: 1;
     flex: 0 0 auto;
-    align-self: flex-start; */
+    /*align-self: flex-start; */
 }
 
 .bloco-2 {
